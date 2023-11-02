@@ -1,0 +1,968 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(./images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: black;
+}
+
+/* NavBar  */
+#nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10%;
+    position: relative;
+}
+
+#nav #left img {
+    width: 20%;
+}
+
+#nav #right {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.fa-solid.fa-globe{
+    color: white;
+}
+#r-1{
+    position: absolute;
+      top: 40%;
+    left: 74%;
+}
+#footer{
+    position: relative;
+}
+#footer #right1{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+#footer #r-2{
+    position: absolute;
+      top: 76%;
+    left: 4.5%;
+}
+p{
+    color: gray;
+}
+#right1 select {
+    background-color: rgba(0, 0, 0, 0.753);
+    color: white;
+    width: 7rem;
+    height: 2rem;
+    border-radius: 5px;
+    padding-left: 1.5rem;
+}
+#nav #right select {
+    background-color: rgba(0, 0, 0, 0.753);
+    color: white;
+    width: 7rem;
+    height: 2rem;
+    border-radius: 5px;
+    padding-left: 1.5rem;
+}
+
+#sign {
+    width: 4rem;
+    height: 2rem;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+
+}
+
+/* center section */
+
+#centre {
+    text-align: center;
+    color: white;
+    margin-top: 9rem;
+}
+
+#centre h1 {
+    font-size: 55px;
+    font-weight: 900;
+    margin-bottom: 0%;
+}
+
+#centre h3 {
+    font-size: 24px;
+}
+
+#centre p {
+    font-size: 20px;
+}
+
+#in {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#centre button {
+    width: 15%;
+    height: 3.3rem;
+    padding: 8px;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    font-size: 150%;
+    border: none;
+}
+
+#centre button:hover {
+    background-color: rgb(192, 7, 7);
+    cursor: pointer;
+}
+
+
+#centre input {
+    width: 30%;
+    height: 3.1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.548);
+}
+
+input::placeholder {
+    padding-left: 10px;
+
+}
+
+#enjoy {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 15rem;
+}
+
+#enjoy div {
+    width: 45%;
+}
+
+#enjoy #smart h1 {
+    font-size: 3rem;
+
+}
+
+#enjoy #smart p {
+    font-size: 1.5rem;
+}
+
+#enjoy #tv img {
+    width: 80%;
+    position: relative;
+    z-index: 2;
+}
+
+#enjoy #tv {
+    position: relative;
+}
+
+#enjoy #tv video {
+    position: absolute;
+    top: 19%;
+    left: 9%;
+    width: 60%;
+    z-index: 1;
+}
+
+/* mobile section */
+
+#mbl {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    width: 80%;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 5px;
+    padding-bottom: 4rem;
+}
+
+#mbl #dnldng {
+    width: 45%;
+    position: relative;
+}
+
+#mbl #dnld {
+    width: 45%;
+}
+
+#mbl #dnldng #img1 {
+    width: 100%;
+}
+
+#mbl #dnld h2 {
+    font-size: 3rem;
+    padding-left: 20px;
+}
+
+#mbl #dnld p {
+    font-size: 24px;
+    padding-left: 20px;
+}
+
+#strange {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #484848;
+    border-radius: 6px;
+    width: 60%;
+    margin: auto;
+    position: absolute;
+    bottom: 2%;
+    left: 20%;
+    background-color: black;
+    padding: 0.5rem;
+}
+
+#strange #im {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+#strange #im img {
+    width: 3rem;
+}
+
+#strange #im h4 {
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+#strange #im h5 {
+    font-size: 0.8rem;
+    margin-top: 0;
+    color: #008abb;
+}
+
+#gif {
+    width: 15%;
+}
+
+#gif img {
+    width: 100%;
+}
+
+/* computer section */
+#computer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    width: 90%;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+#computer div {
+    width: 45%;
+}
+
+#computer #watch h2 {
+    font-size: 48px;
+}
+
+#computer #watch p {
+    font-size: 24px;
+}
+
+#comp {
+    position: relative;
+}
+
+#comp img {
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+#comp video {
+    position: absolute;
+    top: 8%;
+    left: 19%;
+    width: 61%;
+    z-index: 1;
+}
+
+#kid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    width: 90%;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+#kid div {
+    width: 45%;
+}
+
+#kid #profile h2 {
+    font-size: 48px;
+}
+
+#kid #profile p {
+    font-size: 24px;
+}
+
+#kid img {
+    width: 100%;
+}
+
+/* FAQ Section */
+
+#faq {
+    color: white;
+    width: 80%;
+    margin: auto;
+}
+
+#faq h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+#faq ul {
+    list-style-type: none;
+}
+
+#faq ul li {
+    margin-bottom: 0.5rem;
+}
+
+#faq ul li .span {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    background-color: #2d2d2d;
+    padding: 1rem;
+    align-items: center;
+}
+
+#faq ul li #fd1 {
+    display: block;
+    margin-top: 0.1rem;
+    font-size: 1.3rem;
+    position: relative;
+    display: none;
+    padding: 1rem;
+}
+
+#f1:hover #fd1 {
+    display: block;
+    background-color: #2d2d2d;
+    cursor: pointer;
+}
+
+#faq ul li #fd2 {
+    display: block;
+    margin-top: 0.1rem;
+    font-size: 1.3rem;
+    position: relative;
+    display: none;
+    padding: 1rem;
+}
+
+#f2:hover #fd2 {
+    display: block;
+    background-color: #2d2d2d;
+    cursor: pointer;
+}
+
+#faq ul li #fd3 {
+    display: block;
+    margin-top: 0.1rem;
+    font-size: 1.3rem;
+    position: relative;
+    display: none;
+    padding: 1rem;
+}
+
+#f3:hover #fd3 {
+    display: block;
+    background-color: #2d2d2d;
+    cursor: pointer;
+}
+
+#faq ul li #fd4 {
+    display: block;
+    margin-top: 0.1rem;
+    font-size: 1.3rem;
+    position: relative;
+    display: none;
+    padding: 1rem;
+}
+
+#f4:hover #fd4 {
+    display: block;
+    background-color: #2d2d2d;
+    cursor: pointer;
+}
+
+#faq ul li #fd5 {
+    display: block;
+    margin-top: 0.1rem;
+    font-size: 1.3rem;
+    position: relative;
+    display: none;
+    padding: 1rem;
+}
+
+#f5:hover #fd5 {
+    display: block;
+    background-color: #2d2d2d;
+    cursor: pointer;
+}
+
+#faq ul li #fd6 {
+    display: block;
+    margin-top: 0.1rem;
+    font-size: 1.3rem;
+    position: relative;
+    display: none;
+    padding: 0.8rem;
+}
+
+#f6:hover #fd6 {
+    display: block;
+    background-color: #2d2d2d;
+    cursor: pointer;
+}
+
+.plus {
+    font-size: 3.1rem;
+
+}
+
+#faq #get{
+    color: white;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+#faq #get input{
+    width: 40%;
+    height: 50px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.219);
+    border-radius: 5px;
+    border: 2px solid gray;
+    margin-right: 0.5%;
+}
+#faq #get  div button{
+    width: 20%;
+    height: 58px;
+    color: white;
+    margin-top: 10px;
+    background-color: red;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+
+/* footer */
+#qstn h5 a{
+    text-align: left;
+    color: gray;
+    margin-left: 6rem;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+#qstn  div a {
+    color: gray;
+    font-size: 14px;
+    /* text-decoration: none; */
+    
+}
+#qstn  div{
+    gap: 8rem;
+}
+#qstn  div ul li {
+    list-style-type: none;
+    margin: 10px 0px;
+    
+}
+
+#footer {
+    color: white;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content:left;
+
+}
+
+/* ==============mobile============== */
+
+
+@media (max-width:600px) {
+    body {
+        background-size: 200%;
+        background-position-x: center;
+    }
+
+    #nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* padding: 0px 10%; */
+        position: relative;
+    }
+    #nav #left img {
+        width: 160%;
+        margin-right: -100rem;
+       
+    }
+    
+    #nav #right {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0rem;
+        margin-right: 10px;
+    }
+    #r-1{
+        position: absolute;
+          top: 35%;
+        left: 36%;
+    }
+
+    #nav #right select {        
+        margin-left: 2rem;
+    }
+    
+    #sign {
+        width: 4rem;
+        height: 2rem;
+        margin-left: 2rem;
+    
+    }
+    #centre {
+        margin-top: 0rem;
+    }
+    
+    #centre h1 {
+        font-size: 25px;
+        font-weight: 900;
+        margin-bottom: 0%;
+        color: white;
+    }
+    #in{
+        display: block;
+    }
+    #centre h3 {
+        font-size: 24px;
+    }
+    
+    #centre p {
+        font-size: 20px;
+        color: white;
+        margin: 10px;
+    }
+    
+    #centre button {
+        width: 40%;
+        height: 2.8rem;
+        margin-bottom: 1rem;
+    }
+    
+    #centre input {
+        width: 70%;
+        height: 3.1rem;
+        margin-bottom: 1rem;
+    }
+    
+    input::placeholder {
+        padding-left: 10px;
+    
+    }
+
+    
+#enjoy {
+    display: block;
+    color: white;
+    width: 100%;
+    margin: auto;
+    margin-top: 0rem;
+}
+
+#enjoy div {
+    width: 100%;
+}
+
+#enjoy #smart h1 {
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+#enjoy #smart p {
+    font-size: 1rem;
+    text-align: center;
+}
+
+#enjoy #tv img {
+    width: 80%;
+    position: relative;
+    z-index: 2;
+}
+
+#enjoy #tv {
+    position: relative;
+}
+
+#enjoy #tv video {
+    position: absolute;
+    top: 19%;
+    left: 9%;
+    width: 60%;
+    z-index: 1;
+}
+
+#mbl {
+    display: block;
+    color: white;
+    width: 80%;
+    margin: auto;
+    margin-top: 1rem;
+
+
+}
+
+#mbl #dnldng {
+    width: 45%;
+    position: relative;
+}
+
+#mbl #dnld {
+    width: 100%;
+}
+
+#mbl #dnldng #img1 {
+    width: 260%;
+}
+
+#mbl #dnld h2 {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+#mbl #dnld p {
+    font-size: 18px;
+    text-align: center;
+}
+
+#strange {
+    display: block;
+    border: 2px solid #484848;
+    border-radius: 6px;
+    width: 150%;
+    height: 100px;
+    margin: auto;
+    position: absolute;
+    bottom: 8%;
+    left: 53%;
+    background-color: black;
+    padding: 0rem;
+}
+
+#strange #im {
+    display: flex;
+    height: 100px;
+    gap: 5px;
+
+}
+
+#strange #im img {
+    width: 3rem;
+}
+
+#strange #im h4 {
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+#strange #im h5 {
+    font-size: 0.8rem;
+    margin-top: 0;
+    color: #008abb;
+}
+
+#gif {
+    width: 15%;
+}
+
+#gif img {
+    width: 100%;
+}
+
+/* computer section */
+#computer {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    width: 90%;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+#computer div {
+    width: 100%;
+}
+
+#computer #watch h2 {
+    font-size: 1.2rem;
+}
+
+#computer #watch p {
+    font-size: 20px;
+}
+
+#comp {
+    position: relative;
+}
+
+#comp img {
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+#comp video {
+    position: absolute;
+    top: 8%;
+    left: 19%;
+    width: 61%;
+    z-index: 1;
+}
+
+#kid {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    width: 90%;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+#kid div {
+    width: 100%;
+}
+
+#kid #profile h2 {
+    font-size: 1.2rem;
+}
+
+#kid #profile p {
+    font-size: 20px;
+}
+
+#kid img {
+    width: 100%;
+}
+
+/* FAQ Section */
+
+#faq {
+    color: white;
+    width: 90%;
+    margin: 0;
+}
+
+#faq h1 {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#faq ul {
+    list-style-type: none;
+}
+
+#faq ul li {
+    margin-bottom: 0.5rem;
+}
+
+#faq ul li .span {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    background-color: #2d2d2d;
+    padding: 1rem;
+    align-items: center;
+}
+
+#faq ul li #fd1 {
+    display: block;
+    margin-top: 0.1rem;
+    font-size: 1.3rem;
+    position: relative;
+    display: none;
+    padding: 1rem;
+}
+
+#f1:hover #fd1 {
+    display: block;
+    background-color: #2d2d2d;
+    cursor: pointer;
+}
+
+#faq ul li #fd2 {
+    display: block;
+    margin-top: 0.1rem;
+    font-size: 1.3rem;
+    position: relative;
+    display: none;
+    padding: 1rem;
+}
+
+#f2:hover #fd2 {
+    display: block;
+    background-color: #2d2d2d;
+    cursor: pointer;
+}
+
+#faq ul li #fd3 {
+    display: block;
+    margin-top: 0.1rem;
+    font-size: 1.3rem;
+    position: relative;
+    display: none;
+    padding: 1rem;
+}
+
+#f3:hover #fd3 {
+    display: block;
+    background-color: #2d2d2d;
+    cursor: pointer;
+}
+
+#faq ul li #fd4 {
+    display: block;
+    margin-top: 0.1rem;
+    font-size: 1.3rem;
+    position: relative;
+    display: none;
+    padding: 1rem;
+}
+
+#f4:hover #fd4 {
+    display: block;
+    background-color: #2d2d2d;
+    cursor: pointer;
+}
+
+#faq ul li #fd5 {
+    display: block;
+    margin-top: 0.1rem;
+    font-size: 1.3rem;
+    position: relative;
+    display: none;
+    padding: 1rem;
+}
+
+#f5:hover #fd5 {
+    display: block;
+    background-color: #2d2d2d;
+    cursor: pointer;
+}
+
+#faq ul li #fd6 {
+    display: block;
+    margin-top: 0.1rem;
+    font-size: 1.3rem;
+    position: relative;
+    display: none;
+    padding: 0.8rem;
+}
+
+#f6:hover #fd6 {
+    display: block;
+    background-color: #2d2d2d;
+    cursor: pointer;
+}
+
+.plus {
+    font-size: 3.1rem;
+
+}
+
+#faq #get{
+    color: white;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+#faq #get input{
+    width: 90%;
+    height: 50px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.219);
+    border-radius: 5px;
+    border: 2px solid gray;
+    margin-right: 0.5%;
+}
+#faq #get  div button{
+    width: 50%;
+    height: 58px;
+    color: white;
+    margin-top: 10px;
+    background-color: red;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+
+/* footer */
+#qstn h5 a{
+    text-align: left;
+    color: gray;
+    margin-left: 6rem;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+#qstn  div a {
+    color: gray;
+    font-size: 14px;
+    /* text-decoration: none; */
+    
+}
+#qstn  div{
+    gap: 8rem;
+}
+#qstn  div ul li {
+    list-style-type: none;
+    margin: 10px 0px;
+    
+}
+
+#footer {
+    color: white;
+    display: block;
+    width: 100%;
+    margin: auto;
+    justify-content:left;
+
+}
+
+}
